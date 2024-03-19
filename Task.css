@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Karla:ital,wght@0,200..800;1,200..800&family=Lexend+Exa:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Karla:ital,wght@0,200..800;1,200..800&family=Lexend+Exa:wght@100..900&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Comfortaa:wght@300..700&family=Karla:ital,wght@0,200..800;1,200..800&family=Lexend+Exa:wght@100..900&family=Sacramento&display=swap');
+*{
+    box-sizing: border-box;
+}
+.company-label{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0px 70px;
+    }
+    .company-label  *{
+        padding: 5px 0px;
+        margin: auto;
+    }
+.company-label .label{
+    font-family: "Climate Crisis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 50px;
+    font-variation-settings:
+      "YEAR" 1979;
+      background: -webkit-linear-gradient(331deg, rgba(131,58,180,1) 13%, rgba(253,29,29,1) 63%, rgba(252,176,69,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.company-label .about-company{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+.container h1{
+    margin-bottom: 20px;
+    color: blue;
+    margin: auto;
+}
+img{
+    border-radius: 50%;
+    float: left;
+    border: 100px black;
+    width: 50%;
+    height: 155px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container *{
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    font-family: "Lexend Exa", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: small;
+}
+.container-title{
+    width: 30%;
+    margin: 20px auto 40px;
+    background: rgb(58,55,121);
+    background: linear-gradient(24deg, rgba(58,55,121,1) 0%, rgba(103,133,131,0.99781162464986) 67%, rgba(0,212,255,1) 100%);
+    border-radius: 10px;
+    padding: 16px;
+}
+.container-title *{
+    margin: auto;
+    color: white;
+}
+.container .row{
+    margin: auto;
+    margin-bottom: 20px;
+    padding: auto;
+    
+}
+.container .row *{
+    margin: 10px 50px;
+    /* background-color: blue; */
+    align-items: center;
+    
+}
+.container .row p{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+/* making responsive */
+@media  (max-width: 500px) {
+    *{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .container *{
+        flex-direction: column;
+    }
+    .container .row{
+        margin: 0px;
+    }
+
+    .container .row * {
+        margin: 10px 50px ;
+        align-items: center;
+    }
+    img{
+        width: 40%;
+        height: 155px;
+    }
+    .container-title{
+        width: 50%;
+    }
+    .company-label .label{
+        font-size: 30px;
+    }
+    .company-label .about-company{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: small;
+    }
+  }
+
+.row div{
+    display: flex;
+    flex-direction: column;
+}
+.Development{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
